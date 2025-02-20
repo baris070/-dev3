@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Müzik Aleti Satış Sitesi</title>
+    <!-- Bootstrap CSS Linki -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Müzik Aletleri</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ürünlerimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hakkımızda</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron (Açıklama) -->
+    <div class="jumbotron bg-info text-white text-center py-5">
+        <h1 class="display-4">Müzik Aletleri Dünyası</h1>
+        <p class="lead">Müzik tutkunları için en kaliteli ve en iyi fiyatlarla müzik aletlerini burada bulabilirsiniz!</p>
+    </div>
+
+    <!-- Ürünlerimiz Sayfası (Card Yapısı) -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Ürünlerimiz</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Card 1 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="gitar.jpg" class="card-img-top" alt="Gitar">
+                    <div class="card-body">
+                        <h5 class="card-title">Gitar</h5>
+                        <p class="card-text">Müzik yapmanın en keyifli yolu, kaliteli bir gitar ile başlar.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary">Satın Al</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="piyano.jpg" class="card-img-top" alt="Piyano">
+                    <div class="card-body">
+                        <h5 class="card-title">Piyano</h5>
+                        <p class="card-text">Harfler ve notalarla eğlenceli bir dünyaya adım atın.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary">Satın Al</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="davul.jpg" class="card-img-top" alt="Davul">
+                    <div class="card-body">
+                        <h5 class="card-title">Davul</h5>
+                        <p class="card-text">Enerjinizi ve ritminizi davul ile birleştirin.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary">Satın Al</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hakkımızda Sayfası -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Hakkımızda</h2>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Müzik Aletleri Satışında Güven</h5>
+                <p class="card-text">Müzik aletleri konusunda yılların deneyimine sahip bir ekibiz. En kaliteli aletleri en uygun fiyatlarla sizlere sunuyoruz.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS ve Bağımlılıkları -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
